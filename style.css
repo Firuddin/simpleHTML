@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+      padding: 0;
+      box-sizing: border-box;  
+      font-family: sans-serif;
+  }
+  
+  .Container{
+    width: 100%;  
+    margin: auto;
+    max-width: 1100px;
+    overflow: hidden;
+  }
+  .box{
+      width: 47%;
+      overflow: hidden;
+      float: left;
+      margin: 10px;
+      border-radius: 6px;
+      box-shadow: 0 0 10px;
+    
+  }
+  .box img{
+     height: 280px;
+     width: 100%;
+  }
+  .box h4{
+      margin-left: 10px;
+  }
+  .box p{
+      margin-left: 10px;
+  }
+  @media screen and (max-width:680px)
+  
+  {
+  .box{
+      width: 96%;
+      margin: 2%;
+  }
+  }
